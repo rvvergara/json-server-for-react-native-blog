@@ -2,6 +2,10 @@
   "name": "jsonserver",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "db": "json-server -w db.json",
+    "tunnel": "ngrok http 3000"
+  },
   "author": "Ryan Vergara",
   "license": "MIT",
   "private": true,
